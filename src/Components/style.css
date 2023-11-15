@@ -1,0 +1,61 @@
+.Nav-Logo1 {
+  font-weight: 900;
+}
+
+.Nav-Logo {
+  color: orange;
+  font-weight: 900;
+}
+
+.Nav-Containaire {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0%;
+  align-items: baseline;
+}
+.Nav-Description {
+  /* border: 2px solid rgb(219, 23, 23); */
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  padding: 0%;
+  font-size: large;
+  
+  font-weight: 900;
+}
+.Request-Rate {
+  color: orange;
+}
+.hero-Containaire {
+  background-color: #e3e6e9;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+.hero-Description {
+  /* border: 2px solid rgb(219, 23, 23); */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 150px;
+}
+.hero-Description h1 {
+  font-size: 3rem;
+  width: 40%;
+  /* color: black; */
+}
+.hero-Img {
+  /* border: 2px solid rgb(49, 219, 23); */
+  size: 25px;
+}
+.hero-Btn {
+    all : unset ;
+    border: 5px #cecfd1 solid;
+    color: #cecfd1;
+    width: fit-content;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
